@@ -1,23 +1,17 @@
-# test_work
-협업 테스트
+# 협업 테스트
 
 ## branch
 
-## sourcetree 
+## GUI
 
-## key
+## 소스트리
 
-## command
+## SSH
 
 ## 저장소
 
-## 버전관리
+## 버전관리 / 형상관리
 
-## commit
-
-## clone
-
-## push
+## 명령어
 
 ## 병합
-
