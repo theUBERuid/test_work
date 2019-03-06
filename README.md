@@ -31,16 +31,38 @@
 ※ Sourcetree 설치 및 commit 방법
 
 1. https://www.sourcetreeapp.com (소스트리 : gui 환경에서 git을 사용할 수 있게하는 프로그램) 접속하여 소스트리를 다운받는다. 
+
 2. 왼쪽 상단에 파일 - new 탭을 클릭 -> create 저장소를 만들어준다. (로컬 경로 지정, 이름 지정, 생성)
+
 3. 지정된 폴더에 임시 text 파일을 생성한다.
+![img1](https://user-images.githubusercontent.com/46946241/53864998-4bc09c00-4031-11e9-8ef9-13ca6c222b67.jpg)
+
 4. 스테이지에 올라가지 않은 파일에 있는 파일을 log와 함께 커밋한다.
+![img2](https://user-images.githubusercontent.com/46946241/53865021-5f6c0280-4031-11e9-91ab-5632c74d5fe1.jpg)
+
 5. 커밋하면 스테이지에 올라간 파일 목록에 뜨며, 추가되거나, 수정된 부분이 표시된다.
+![img3](https://user-images.githubusercontent.com/46946241/53865023-61ce5c80-4031-11e9-904d-d2fffe20419e.jpg)
+
 6. 수정 후 커밋하지 않으면 커밋하지 않은 변경사항 목록에 뜬다.
+![img4](https://user-images.githubusercontent.com/46946241/53865028-63982000-4031-11e9-9c89-89c9343eaf39.jpg)
+
 7. 최종 수정된 파일을 github에 올리기 위해, 저장소 -> 저장소 설정에서 내 github url을 추가한다.
+![img5](https://user-images.githubusercontent.com/46946241/53865034-66931080-4031-11e9-9457-a7dc3f2bd815.jpg)
+
 8. 추가된 저장소에 push한다.
+![img7](https://user-images.githubusercontent.com/46946241/53865037-68f56a80-4031-11e9-983f-f00dcc6d6bea.jpg)
+
 9. github 로그인을 안하면, 로그인 하라고 뜬다.
+![img8](https://user-images.githubusercontent.com/46946241/53865044-6a269780-4031-11e9-8736-a756d7d52304.jpg)
+
 10. 모든 branch 목록이 뜬다.
+![img9](https://user-images.githubusercontent.com/46946241/53865046-6bf05b00-4031-11e9-9c6f-70eb74f1292e.jpg)
+
 11. 결과 화면 및 수정했던 로그도 같이 뜬다. (https://github.com/heayun/ex1)
+![img10](https://user-images.githubusercontent.com/46946241/53865047-6d218800-4031-11e9-94c8-4cb56e7c25ca.jpg)
+![img11](https://user-images.githubusercontent.com/46946241/53865048-6eeb4b80-4031-11e9-9a9a-1328b26dcf27.jpg)
+![img12](https://user-images.githubusercontent.com/46946241/53865050-701c7880-4031-11e9-84b9-b7d280b7b104.jpg)
+
 
 ## SSH
 
