@@ -24,6 +24,42 @@ checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 �
 
 ## 소스트리
 
+※Sourcetree 설치 방법 참고 url : https://hackersstudy.tistory.com/41
+※Sourcetree download 사이트 url: https://www.sourcetreeapp.com/
+※git client 관련한 장단점 url : https://www.lesstif.com/pages/viewpage.action?pageId=20774956
+
+
+1. msysgit
+[장점] Windows에 포팅된 git 으로 POSIX 호환 레이어에서 도는 cygwin 에 내장된 git 보다 안정적. OS 가 Windows 라면 유일한 대안.
+[단점] cmd 방식이라 사용이 너무 어려움.
+
+2. SmartGit
+[장점] Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요) 
+[단점] 1) UI 가 직관적이지 못 하고 사용이 어려움(기본적으로 변경되지 않은 파일은 목록에 안 보여서 로그 보는데 애를 먹음)
+	   2) 기업에서 사용하려면 비용 발생
+3. TortoiseGit
+[장점] 익숙한 TortoiseSVN 의 소스를 기반으로 개발되어 기존 Tortoise 사용자라면 UI 가 친숙함
+[단점] 1) 기능 및 안정성이 부족함.
+       2) Mac 용 없음.
+4. github client for Windows/Mac
+[장점] github 가 배포하는 클라이언트로 github 사용시 유용함.
+[단점] 기능이 아직 부실함.
+
+
+※ Sourcetree 설치 및 commit 방법
+
+1. https://www.sourcetreeapp.com (소스트리 : gui 환경에서 git을 사용할 수 있게하는 프로그램) 접속하여 소스트리를 다운받는다. 
+2. 왼쪽 상단에 파일 - new 탭을 클릭 -> create 저장소를 만들어준다. (로컬 경로 지정, 이름 지정, 생성)
+3. 지정된 폴더에 임시 text 파일을 생성한다.
+4. 스테이지에 올라가지 않은 파일에 있는 파일을 log와 함께 커밋한다.
+5. 커밋하면 스테이지에 올라간 파일 목록에 뜨며, 추가되거나, 수정된 부분이 표시된다.
+6. 수정 후 커밋하지 않으면 커밋하지 않은 변경사항 목록에 뜬다.
+7. 최종 수정된 파일을 github에 올리기 위해, 저장소 -> 저장소 설정에서 내 github url을 추가한다.
+8. 추가된 저장소에 push한다.
+9. github 로그인을 안하면, 로그인 하라고 뜬다.
+10. 모든 branch 목록이 뜬다.
+11. 결과 화면 및 수정했던 로그도 같이 뜬다. (https://github.com/heayun/ex1)
+
 ## SSH
 
 ## 저장소
