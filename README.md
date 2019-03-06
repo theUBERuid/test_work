@@ -24,6 +24,64 @@ checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 �
 
 ## 소스트리
 
+※Sourcetree 설치 방법 참고 url : https://hackersstudy.tistory.com/41
+※Sourcetree download 사이트 url: https://www.sourcetreeapp.com/
+※git client 관련한 장단점 url : https://www.lesstif.com/pages/viewpage.action?pageId=20774956
+
+
+1. msysgit
+[장점] Windows에 포팅된 git 으로 POSIX 호환 레이어에서 도는 cygwin 에 내장된 git 보다 안정적. OS 가 Windows 라면 유일한 대안.
+[단점] cmd 방식이라 사용이 너무 어려움.
+
+2. SmartGit
+[장점] Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요) 
+[단점] 1) UI 가 직관적이지 못 하고 사용이 어려움(기본적으로 변경되지 않은 파일은 목록에 안 보여서 로그 보는데 애를 먹음)
+	   2) 기업에서 사용하려면 비용 발생
+3. TortoiseGit
+[장점] 익숙한 TortoiseSVN 의 소스를 기반으로 개발되어 기존 Tortoise 사용자라면 UI 가 친숙함
+[단점] 1) 기능 및 안정성이 부족함.
+       2) Mac 용 없음.
+4. github client for Windows/Mac
+[장점] github 가 배포하는 클라이언트로 github 사용시 유용함.
+[단점] 기능이 아직 부실함.
+
+
+※ Sourcetree 설치 및 commit 방법
+
+1. https://www.sourcetreeapp.com (소스트리 : gui 환경에서 git을 사용할 수 있게하는 프로그램) 접속하여 소스트리를 다운받는다. 
+
+2. 왼쪽 상단에 파일 - new 탭을 클릭 -> create 저장소를 만들어준다. (로컬 경로 지정, 이름 지정, 생성)
+
+3. 지정된 폴더에 임시 text 파일을 생성한다.
+![img1](https://user-images.githubusercontent.com/46946241/53864998-4bc09c00-4031-11e9-8ef9-13ca6c222b67.jpg)
+
+4. 스테이지에 올라가지 않은 파일에 있는 파일을 log와 함께 커밋한다.
+![img2](https://user-images.githubusercontent.com/46946241/53865021-5f6c0280-4031-11e9-91ab-5632c74d5fe1.jpg)
+
+5. 커밋하면 스테이지에 올라간 파일 목록에 뜨며, 추가되거나, 수정된 부분이 표시된다.
+![img3](https://user-images.githubusercontent.com/46946241/53865023-61ce5c80-4031-11e9-904d-d2fffe20419e.jpg)
+
+6. 수정 후 커밋하지 않으면 커밋하지 않은 변경사항 목록에 뜬다.
+![img4](https://user-images.githubusercontent.com/46946241/53865028-63982000-4031-11e9-9c89-89c9343eaf39.jpg)
+
+7. 최종 수정된 파일을 github에 올리기 위해, 저장소 -> 저장소 설정에서 내 github url을 추가한다.
+![img5](https://user-images.githubusercontent.com/46946241/53865034-66931080-4031-11e9-9457-a7dc3f2bd815.jpg)
+
+8. 추가된 저장소에 push한다.
+![img7](https://user-images.githubusercontent.com/46946241/53865037-68f56a80-4031-11e9-983f-f00dcc6d6bea.jpg)
+
+9. github 로그인을 안하면, 로그인 하라고 뜬다.
+![img8](https://user-images.githubusercontent.com/46946241/53865044-6a269780-4031-11e9-8736-a756d7d52304.jpg)
+
+10. 모든 branch 목록이 뜬다.
+![img9](https://user-images.githubusercontent.com/46946241/53865046-6bf05b00-4031-11e9-9c6f-70eb74f1292e.jpg)
+
+11. 결과 화면 및 수정했던 로그도 같이 뜬다. (https://github.com/heayun/ex1)
+![img10](https://user-images.githubusercontent.com/46946241/53865047-6d218800-4031-11e9-94c8-4cb56e7c25ca.jpg)
+![img11](https://user-images.githubusercontent.com/46946241/53865048-6eeb4b80-4031-11e9-9a9a-1328b26dcf27.jpg)
+![img12](https://user-images.githubusercontent.com/46946241/53865050-701c7880-4031-11e9-84b9-b7d280b7b104.jpg)
+
+
 ## SSH
 
 ## 저장소
