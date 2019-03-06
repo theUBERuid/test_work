@@ -153,8 +153,24 @@ __메시지 형태 : 가장가까운 부모tag_그태그가 몇 커밋 멀리 �
 : ~ 수식과 ^ 수식을 한 명령어에 병행해서 쓸 수 있다.(git checkout HEAD~^2~2)
 
 
+### Git 명령어6(유용한 명령어)
 
+- 최근 커밋 취소
+```
+git reset HEAD^
+```
 
+- 최근 수정 사항 삭제
+```
+git checkout <file name>
+```
+
+- branch 병합하기
+```
+git checkout <병합 베이스 branch>
+git merge <병합하고 싶은 내용이 있는 branch>
+```
+> <병합하고 싶은 내용이 있는 branch> 소스를 <병합 베이스 branch> 에 추가 한다.
 
 
 
