@@ -19,14 +19,14 @@ checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 �
 
 ### 브랜치 네이밍
 
-name|feat
--|-
-wip|Works in progress; stuff I know won't be finished soon
-feat|Feature I'm adding or expanding
-bug|Bug fix or experiment
-junk|Throwaway branch created to experiment
+|name|feat|
+|---|---|
+wip|곧 끝나지 않을 진행중인 작업
+feat|기능 추가 또는 확장 중
+bug|버그 수정 또는 실험
+junk|테스트
 
-> 지점 이름 앞에 "그룹화" 토큰을 사용하십시오.
+- 지점 이름 앞에 "그룹화" 토큰을 사용하십시오.
 
 ```
 group1/foo
