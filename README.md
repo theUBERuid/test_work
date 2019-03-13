@@ -50,24 +50,24 @@ group1/baz
 
 
 1. msysgit
-  [장점]
+- [장점]
   Windows에 포팅된 git 으로 POSIX 호환 레이어에서 도는 cygwin 에 내장된 git 보다 안정적. OS 가 Windows 라면 유일한 대안.
-  [단점]
+- [단점]
   cmd 방식이라 사용이 너무 어려움.
 
 2. SmartGit
-  [장점]
+- [장점]
   Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요)
-  [단점]
+- [단점]
   1) UI 가 직관적이지 못 하고 사용이 어려움(기본적으로 변경되지 않은 파일은 목록에 안 보여서 로그 보는데 애를 먹음)
   2) 기업에서 사용하려면 비용 발생
 3. TortoiseGit
-  [장점] 익숙한 TortoiseSVN 의 소스를 기반으로 개발되어 기존 Tortoise 사용자라면 UI 가 친숙함
-  [단점] 1) 기능 및 안정성이 부족함.
+- [장점] 익숙한 TortoiseSVN 의 소스를 기반으로 개발되어 기존 Tortoise 사용자라면 UI 가 친숙함
+- [단점] 1) 기능 및 안정성이 부족함.
   2) Mac 용 없음.
 4. github client for Windows/Mac
-  [장점] github 가 배포하는 클라이언트로 github 사용시 유용함.
-  [단점] 기능이 아직 부실함.
+- [장점] github 가 배포하는 클라이언트로 github 사용시 유용함.
+- [단점] 기능이 아직 부실함.
 
 
 ※ Sourcetree 설치 및 commit 방법
