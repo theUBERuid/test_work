@@ -53,7 +53,7 @@ group1/baz
 [단점] cmd 방식이라 사용이 너무 어려움.
 
 2. SmartGit
-[장점] Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요)
+[장점] Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요) 
 [단점] 1) UI 가 직관적이지 못 하고 사용이 어려움(기본적으로 변경되지 않은 파일은 목록에 안 보여서 로그 보는데 애를 먹음)
 	   2) 기업에서 사용하려면 비용 발생
 3. TortoiseGit
@@ -67,7 +67,7 @@ group1/baz
 
 ※ Sourcetree 설치 및 commit 방법
 
-1. https://www.sourcetreeapp.com (소스트리 : gui 환경에서 git을 사용할 수 있게하는 프로그램) 접속하여 소스트리를 다운받는다.
+1. https://www.sourcetreeapp.com (소스트리 : gui 환경에서 git을 사용할 수 있게하는 프로그램) 접속하여 소스트리를 다운받는다. 
 
 2. 왼쪽 상단에 파일 - new 탭을 클릭 -> create 저장소를 만들어준다. (로컬 경로 지정, 이름 지정, 생성)
 
