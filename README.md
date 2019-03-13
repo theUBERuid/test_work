@@ -29,6 +29,7 @@ junk|테스트
 - 지점 이름 앞에 "그룹화" 토큰을 사용하십시오.
 
 ```
+dfdfadfadfadfadf
 group1/foo
 group2/foo
 group1/bar
@@ -36,7 +37,7 @@ group2/bar
 group3/bar
 group1/baz
 ```
-* test
+* testdfsdfdsaf
 ### 병합(merge)
 [브랜치와 Merge의 기초] (https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%99%80-Merge-%EC%9D%98-%EA%B8%B0%EC%B4%88)
 
