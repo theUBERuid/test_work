@@ -315,7 +315,7 @@ __★ 원격저장소의 상태를 반영__
 
 
 #### fakeTeamwork(git fakeTeamwork /추가 할 브랜치 갯수 /)
-원격 master에 간단히 하나의 커밋을 한것처럼 가장의 커밋
+원격 master에 간단히 하나의 커밋을 한 것 처럼 가장의 커밋
 
 
 #### push(git push)
