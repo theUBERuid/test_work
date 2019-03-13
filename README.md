@@ -1,21 +1,21 @@
 # 협업 테스트
 
 ## branch
-기존 파일과 상관없이 따로 독립적인 공간을 만들어 파일을 수정할 수 있게 해주는 것이 브랜치 입니다."<br>
-브랜치는 여러개를 만들 수 있고 브랜치 사이를 자유롭게 이동할 수 있습니다.<br>
-Git에서는 브랜치를 만들어 작업을 진행하고 나중에 Merge하는 방식을 권장한다고 합니다.<br>
-Git은 HEAD 라는 포인터가 있는데 HEAD는 지금 작업하는 로컬 브랜치를 가리킵니다.<br>
-브랜치를 새롭게 생성하더라도 HEAD는 자동으로 변경되지 않기 때문에<br>
-checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 합니다.
+- 기존 파일과 상관없이 따로 독립적인 공간을 만들어 파일을 수정할 수 있게 해주는 것이 브랜치 입니다."
+- 브랜치는 여러개를 만들 수 있고 브랜치 사이를 자유롭게 이동할 수 있습니다.
+- Git에서는 브랜치를 만들어 작업을 진행하고 나중에 Merge하는 방식을 권장한다고 합니다.
+- Git은 HEAD 라는 포인터가 있는데 HEAD는 지금 작업하는 로컬 브랜치를 가리킵니다.
+- 브랜치를 새롭게 생성하더라도 HEAD는 자동으로 변경되지 않기 때문에
+- checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 합니다.
 
-브랜치 관련 명령어<br>
-브랜치 생성 : git branch &lt;branch name&gt;<br>
-생성된 브랜치 리스트 확인 : git branch<br>
-브랜치 이동 : git checkout &lt;branch name&gt;<br>
-브랜치 생성 및 이동 한번에 하기 : git -b &lt;branch name&gt;<br>
-브랜치 삭제 : git branch -d &lt;branch name&gt;<br>
-저장소 브랜치 삭제 : git push origin --delete &lt;branch name&gt;<br>
-브랜치 병합 : git merge &lt;병합할 branch name&gt;
+### 브랜치 관련 명령어
+- 브랜치 생성 : `git branch <branch name>`
+- 생성된 브랜치 리스트 확인 : `git branch`
+- 브랜치 이동 : `git checkout <branch name>`
+- 브랜치 생성 및 이동 한번에 하기 : `git -b <branch name>`
+- 브랜치 삭제 : `git branch -d <branch name>`
+- 저장소 브랜치 삭제 : `git push origin --delete <branch name>`
+- 브랜치 병합 : `git merge <병합할 branch name>`
 
 ### 브랜치 네이밍
 
@@ -50,20 +50,24 @@ group1/baz
 
 
 1. msysgit
-[장점] Windows에 포팅된 git 으로 POSIX 호환 레이어에서 도는 cygwin 에 내장된 git 보다 안정적. OS 가 Windows 라면 유일한 대안.
-[단점] cmd 방식이라 사용이 너무 어려움.
+  [장점]
+  Windows에 포팅된 git 으로 POSIX 호환 레이어에서 도는 cygwin 에 내장된 git 보다 안정적. OS 가 Windows 라면 유일한 대안.
+  [단점]
+  cmd 방식이라 사용이 너무 어려움.
 
 2. SmartGit
-[장점] Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요)
-[단점] 1) UI 가 직관적이지 못 하고 사용이 어려움(기본적으로 변경되지 않은 파일은 목록에 안 보여서 로그 보는데 애를 먹음)
-	   2) 기업에서 사용하려면 비용 발생
+  [장점]
+  Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요)
+  [단점]
+  1) UI 가 직관적이지 못 하고 사용이 어려움(기본적으로 변경되지 않은 파일은 목록에 안 보여서 로그 보는데 애를 먹음)
+  2) 기업에서 사용하려면 비용 발생
 3. TortoiseGit
-[장점] 익숙한 TortoiseSVN 의 소스를 기반으로 개발되어 기존 Tortoise 사용자라면 UI 가 친숙함
-[단점] 1) 기능 및 안정성이 부족함.
-       2) Mac 용 없음.
+  [장점] 익숙한 TortoiseSVN 의 소스를 기반으로 개발되어 기존 Tortoise 사용자라면 UI 가 친숙함
+  [단점] 1) 기능 및 안정성이 부족함.
+  2) Mac 용 없음.
 4. github client for Windows/Mac
-[장점] github 가 배포하는 클라이언트로 github 사용시 유용함.
-[단점] 기능이 아직 부실함.
+  [장점] github 가 배포하는 클라이언트로 github 사용시 유용함.
+  [단점] 기능이 아직 부실함.
 
 
 ※ Sourcetree 설치 및 commit 방법
