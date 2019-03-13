@@ -17,6 +17,15 @@ checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 �
 저장소 브랜치 삭제 : git push origin --delete &lt;branch name&gt;
 브랜치 병합 : git merge &lt;병합할 branch name&gt;
 
+### 브랜치 네이밍
+
+name|feat
+-|-
+wip|Works in progress; stuff I know won't be finished soon
+feat|Feature I'm adding or expanding
+bug|Bug fix or experiment
+junk|Throwaway branch created to experiment
+
 ### 병합(merge)
 [브랜치와 Merge의 기초](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EC%99%80-Merge-%EC%9D%98-%EA%B8%B0%EC%B4%88)
 
@@ -34,7 +43,7 @@ checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 �
 [단점] cmd 방식이라 사용이 너무 어려움.
 
 2. SmartGit
-[장점] Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요) 
+[장점] Java 로 개발되어 Multi platform 지원 (내부적으로는 git command 사용하므로 msysgit 필요)
 [단점] 1) UI 가 직관적이지 못 하고 사용이 어려움(기본적으로 변경되지 않은 파일은 목록에 안 보여서 로그 보는데 애를 먹음)
 	   2) 기업에서 사용하려면 비용 발생
 3. TortoiseGit
@@ -48,7 +57,7 @@ checkout 명령어를 통해 브랜치를 이동한 후 작업을 진행해야 �
 
 ※ Sourcetree 설치 및 commit 방법
 
-1. https://www.sourcetreeapp.com (소스트리 : gui 환경에서 git을 사용할 수 있게하는 프로그램) 접속하여 소스트리를 다운받는다. 
+1. https://www.sourcetreeapp.com (소스트리 : gui 환경에서 git을 사용할 수 있게하는 프로그램) 접속하여 소스트리를 다운받는다.
 
 2. 왼쪽 상단에 파일 - new 탭을 클릭 -> create 저장소를 만들어준다. (로컬 경로 지정, 이름 지정, 생성)
 
