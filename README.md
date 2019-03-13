@@ -27,7 +27,7 @@ bug|버그 수정 또는 실험
 junk|테스트
 
 - 지점 이름 앞에 "그룹화" 토큰을 사용하십시오.
-
+내맘대로 수정_jhy
 ```
 dfdfadfadfadfadf
 group1/foo
