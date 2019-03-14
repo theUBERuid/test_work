@@ -1,4 +1,20 @@
-# 협업 테스트
+# git 협업 테스트
+
+## 목차
+
+- [branch](##branch)
+- [브랜치 관련 명령어](##브랜치-관련-명령어)
+- [브랜치 네이밍](##브랜치-네이밍)
+- [병합(merge)](##병합(merge))
+- [GUI](##GUI)
+- [소스트리](##소스트리)
+- [SSH](##SSH)
+- [저장소](##저장소)
+- [버전관리/형상관리](##버전관리/형상관리)
+- [병합](##병합)
+- [commit message 작성법 정하기](##commit-message-작성법-정하기)
+- [명령어](##명령어)
+- [git 협업 과정](##git-협업-과정)
 
 ## branch
 - 기존 파일과 상관없이 따로 독립적인 공간을 만들어 파일을 수정할 수 있게 해주는 것이 브랜치 입니다."
@@ -110,13 +126,13 @@ group1/baz
 
 ## 저장소
 
-## 버전관리 / 형상관리
-
-## 명령어
+## 버전관리/형상관리
 
 ## 병합
 
 ## commit message 작성법 정하기
+
+## 명령어
 
 ### Git 명령어1(git 기본 명령어)
 
@@ -276,6 +292,11 @@ git merge <병합하고 싶은 내용이 있는 branch>
 ```
 > <병합하고 싶은 내용이 있는 branch> 소스를 <병합 베이스 branch> 에 추가 한다.
 
+- git log 그래프로 보기
+```
+git log --graph --abbrev-commit --decorate --format=format:'%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)' --all
+```
+
 
 
 ### 원격저장소
@@ -319,10 +340,6 @@ __★ 원격저장소의 상태를 반영__
 
 
 #### push(git push)
-
-
-
-## 병합
 
 ## git 협업 과정
 
